@@ -18,9 +18,9 @@
   },
 
   onStart: async function ({ args, event, api, usersData }) {
-    const permission = ["100033670741301", ""];
+    const permission = ["100033670741301", "61564877544393"];
   if (!permission.includes(event.senderID)) {
-    api.sendMessage("You don't have enough permission to use this command. Only Mahi Ahmed  can do it.", event.threadID, event.messageID);
+    api.sendMessage("You don't have enough permission to use this command. Only Rana Babu  can do it.", event.threadID, event.messageID);
     return;
   }
     const query = args[0];
