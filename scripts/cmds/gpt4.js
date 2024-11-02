@@ -5,8 +5,8 @@ const baseUrl = async () => {
   };
 
 module.exports.config = {
-  name: "gpt4",
-  aliases: [],
+  name: "ai",
+  aliases: [gpt],
   version: "1.0.0",
   role: 0, 
   author: "dipto", 
